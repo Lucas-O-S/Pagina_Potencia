@@ -1,8 +1,7 @@
 # Pagina_Potencia
 Pagina HTML que Calcula potencia usando ASP.NET MVC
-
-# 10.1 
-Crie um projeto para calcular a potência. O usuário deverá informar a base e o expoente e o sistema 
+ 
+Ex 10.1 Crie um projeto para calcular a potência. O usuário deverá informar a base e o expoente e o sistema 
 deverá retornar o resultado na página HTML. 
 
 #Pagina
