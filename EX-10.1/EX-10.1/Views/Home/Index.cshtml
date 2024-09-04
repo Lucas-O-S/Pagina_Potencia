@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <form asp-action="CalcularPotencia">
+        Digite um numero:
+        <input type="number" name = "numero" value = "@ViewBag.Numero"/>
+        <br />
+        Digite uma potencia:
+        <input type="number" name = "Potencia" value = "@ViewBag.Potencia"/>
+        <br />
+        <br />
+        <input type= "submit" value="Calcular Potencia" />
+    </form>
+    @if (Model > 0)
+    {
+       <h2>Resultado = @Model</h2>
+    }
+</div>
